@@ -1,0 +1,8 @@
+ Build & Test — K_PYEDFLIB
+
+bash
+git clone https://github.com/holgern/pyedflib
+cd k-pyedflib
+pip install -e .dev
+pytest tests/
+

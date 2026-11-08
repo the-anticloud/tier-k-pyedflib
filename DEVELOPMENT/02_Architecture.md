@@ -1,0 +1,3 @@
+# Architecture — K_PYEDFLIB
+
+See upstream documentation at https://pyedflib.readthedocs.io/

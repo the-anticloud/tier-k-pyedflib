@@ -1,0 +1,10 @@
+{
+  "benchmark": "CLOC_Lab_Results",
+  "project": "K_PYEDFLIB",
+  "run_timestamp": "2026-09-30T18:11:11.493145+00:00",
+  "isolation": "STATIC_ANALYSIS",
+  "results": {
+    "total_files": 168,
+    "python_files": 12
+  }
+}

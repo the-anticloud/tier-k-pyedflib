@@ -1,0 +1,60 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ddac486c-34eb-523e-9d52-5f7a2887cfab",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:35:49Z",
+    "component": {
+      "type": "application",
+      "name": "K_PYEDFLIB",
+      "version": "d67c216d553b",
+      "bom-ref": "pkg:generic/anticloud/K_PYEDFLIB@d67c216d553b",
+      "purl": "pkg:generic/anticloud/K_PYEDFLIB@d67c216d553b",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "d67c216d553b072042a365b07aa1dce5c6c45362"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/holgern/pyedflib"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.9.1",
+      "purl": "pkg:pypi/numpy@1.9.1",
+      "bom-ref": "pypi/numpy@>=1.9.1"
+    },
+    {
+      "type": "library",
+      "name": "typing_extensions",
+      "version": "unspecified",
+      "purl": "pkg:pypi/typing_extensions",
+      "bom-ref": "pypi/typing_extensions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "file",
+      "version": "= fopeno(path, ",
+      "purl": "pkg:pypi/file@fopeno(path, ",
+      "bom-ref": "pypi/file@= fopeno(path, "
+    }
+  ]
+}
